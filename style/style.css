@@ -82,6 +82,7 @@ body{
     margin: 0;
     padding: 15px;
     width: 100%;
+    font-size: 0.8em;
     border: none;
     border-top: 1px #cecece solid;
     border-left: 1px #cecece solid;
@@ -145,5 +146,9 @@ body{
 
     .contenedor-listado ul li:first-child{
         margin-top: 30px;
+    }
+
+    .contenedor{
+        width: 90%;
     }
 }
