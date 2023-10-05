@@ -7,7 +7,7 @@
 }
 
 body{
-    height: 100vh;
+    min-height: 100vh;
     background: url(../img/fondo.jpg);
     background-size: cover;
     background-position: center;
@@ -54,11 +54,12 @@ body{
     outline: none;
     border-radius: 5px;
     border: 1px solid #cecece;
+    color: #1c1c1c;
 }
 
 .contenedor-listado{
     width: 45%;
-    color: darkslateblue;
+    color: #1c1c1c;
 }
 
 .contenedor-listado ul{
@@ -82,7 +83,7 @@ body{
     margin: 0;
     padding: 15px;
     width: 100%;
-    font-size: 0.8em;
+    font-size: 0.9em;
     border: none;
     border-top: 1px #cecece solid;
     border-left: 1px #cecece solid;
